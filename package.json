@@ -3,13 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "jest",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.1.1",
-    "react": "16.11.0",
-    "react-dom": "16.11.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "@material/react-button": "^0.15.0",
+    "@material/react-linear-progress": "^0.15.0",
+    "@material/react-radio": "^0.15.0",
+    "@material/react-select": "^0.15.0",
+    "@material/react-snackbar": "^0.15.0",
+    "@material/react-text-field": "^0.15.0",
+    "@rmwc/data-table": "^5.7.0",
+    "@rmwc/linear-progress": "^5.7.0",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.1.1",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.5.3",
+    "xmlhttprequest": "^1.8.0"
   }
 }

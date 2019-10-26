@@ -1,0 +1,70 @@
+@import "normalize.css/normalize";
+@import "@material/theme/mdc-theme";
+@import "@material/typography/mdc-typography";
+@import "@material/react-button/index";
+@import "@material/react-text-field/index";
+@import "@material/react-radio/index";
+@import "@material/react-list/index";
+@import "@material/react-menu-surface/index";
+@import "@material/react-menu/index";
+@import "@material/react-select/index";
+@import "@material/react-snackbar/index";
+
+// @import '@material/react-linear-progress/index';
+@import "@rmwc/data-table/data-table";
+@import "@material/linear-progress/dist/mdc.linear-progress";
+
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 30px;
+  .mdc-text-field {
+    flex: 1;
+  }
+  .mdc-button {
+    align-self: center;
+    margin-left: 15px;
+  }
+
+  .controls {
+    display: flex;
+  }
+}
+
+.rmwc-data-table,
+table {
+  width: 100%;
+
+  .info-cell {
+    .svg-inline--fa {
+      height: 30px;
+
+      &.fa-exclamation {
+        margin-right: 16px;
+      }
+      &.fa-spinner {
+        animation: icon-spin 2s infinite linear;
+      }
+    }
+  }
+}
