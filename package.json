@@ -22,7 +22,7 @@
     "@rmwc/data-table": "^5.7.0",
     "@rmwc/linear-progress": "^5.7.0",
     "@zeit/next-sass": "^1.0.1",
-    "next": "^9.1.1",
+    "next": "^9.3.2",
     "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",
     "react": "^16.11.0",
